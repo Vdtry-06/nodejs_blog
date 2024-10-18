@@ -12,7 +12,6 @@ npm i express
 npm i nodemon --save-dev
 nodemon: lắng nghe sự thay đổi của file
 inspector: debug
-<<<<<<< HEAD
 git init
 git add .
 git commit -m "Initial commit"
@@ -22,5 +21,15 @@ morgan: logger request
 npm i morgan --save-dev
 Template engine: chứa thẻ html gọn gàng hơn
 npm i express-handlebars : HTTP looger
-=======
->>>>>>> 36e8f889c587c8b3a3fee0b0d65c288376c9132e
+
+đẩy code lên git:
+git status
+git add .
+git checkout master
+git commit -m "create project folder"
+git push origin master X
+git pull origin master
+git add .
+git commit -m "Resolve merge conflicts"
+git push origin master
+completed
