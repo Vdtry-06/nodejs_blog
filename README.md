@@ -12,3 +12,12 @@ npm i express
 npm i nodemon --save-dev
 nodemon: lắng nghe sự thay đổi của file
 inspector: debug
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/Vdtry-06/nodejs_blog.git
+git push -u origin master
+morgan: logger request
+npm i morgan --save-dev
+Template engine: chứa thẻ html gọn gàng hơn
+npm i express-handlebars : HTTP looger

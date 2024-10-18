@@ -2,9 +2,9 @@
   "name": "blog",
   "version": "1.0.0",
   "description": "1. HTTP: giao thức truyền tải siêu văn bản\r SSR: server side rendering: HTML, CSS trả về trực tiếp\r     tốt cho sell, lượt truy cập đầu tiên nhanh, mỗi lần gửi yêu cầu phải refresh lại trang, thời gian phát triển nhanh hơn, tác vụ nhỏ\r     trả về đủ dữ liệu không cần giao tiếp với api nữa\r CSR: client side rendering: trả về thẻ div trống, đọc file js, js thực thi, thực thi xong mới append được content\r     lượt truy cập đầu tiên chậm hơn, tác vụ dài hạn nên chọn vì có tính kế thừa, trả về khung, khi cần dữ liệu thì tải thêm",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "nodemon --inspect index.js",
+    "start": "nodemon --inspect src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,9 +25,11 @@
   },
   "homepage": "https://github.com/Vdtry-06/nodejs_blog#readme",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1"
   },
   "devDependencies": {
+    "morgan": "^1.10.0",
     "nodemon": "^3.1.7"
   }
 }
